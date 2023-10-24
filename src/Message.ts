@@ -77,4 +77,4 @@ export class C2Message extends Message {
   }
 }
 
-export type C2MESSAGE_TYPE = keyof typeof C2Message.C2_TYPE;
+type C2MESSAGE_TYPE = keyof typeof C2Message.C2_TYPE;
